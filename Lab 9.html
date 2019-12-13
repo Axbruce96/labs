@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+    <title>Lab 9, Avatar the Last Airbender</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/AirLogo.png" type="image/png" sizes="16x18" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Condiment|Julee&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Kalam&amp;display=swap" rel="stylesheet" />
+    <style type="text/css">
+        @import url("Styles/Lab 9.css");
+    </style>
+</head>
+<body>
+
+<div>
+<button id="Top" name="Top" class="hbttn" onclick="window.location.href='Index.html';">
+        <img src="Images/home icon.png" alt="Home Page" class="homeicon" />
+        Return Home
+</button>
+</div>
+<div class="topbar">
+    <button class="mobile-drop-bar" onclick="openMenu();">
+        <img src="Images/menuIconWhite.png"/>
+    </button>
+    <div class="dropdown">
+        <button class="bttn-bar air">Air&nbsp;Temples&nbsp;<i class="fas fa-caret-down"></i></button>
+        <div class="dropdown-content">
+            <a href="https://avatar.fandom.com/wiki/Northern_Air_Temple">Northern&nbsp;Air&nbsp;Temple</a>
+            <a href="https://avatar.fandom.com/wiki/Southern_Air_Temple">Southern&nbsp;Air&nbsp;Temple</a>
+            <a href="https://avatar.fandom.com/wiki/Eastern_Air_Temple">Eastern&nbsp;Air&nbsp;Temple</a>
+            <a href="https://avatar.fandom.com/wiki/Western_Air_Temple">Western&nbsp;Air&nbsp;Temple</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="bttn-bar water">Water&nbsp;Tribes&nbsp;<i class="fas fa-caret-down"></i></button>
+        <div class="dropdown-content">
+            <a href="https://avatar.fandom.com/wiki/Northern_Water_Tribe">Northern&nbsp;Water&nbsp;Tribe</a>
+            <a href="https://avatar.fandom.com/wiki/Southern_Water_Tribe">Southern&nbsp;Water&nbsp;Tribe</a>
+        </div>
+    </div>
+    <button class="bttn-bar link-bar earth" onclick="window.location.href='https://avatar.fandom.com/wiki/Earth_Kingdom';">Earth&nbsp;Kingdom</button>
+   <button class="bttn-bar link-bar fire" onclick="window.location.href='https://avatar.fandom.com/wiki/Fire_Nation';">Fire&nbsp;Nation</button>
+   
+</div>
+<div class="topright">
+<img src="Images/Arrow E.png" alt="arrow"/>
+</div>
+<div class="picbox">
+    <span class="pic-title">World Map</span>
+    <span class="pic-subtitle">(Click each Nation for more information!)</span>
+    <img src="Images/ATLA Map.jpg" alt="Avatar World Map" usemap="#worldmap" style="margin-top: -20px; overflow: auto;"/>
+</div>
+<div class="content-box">
+<h1 class="title">The Four Elements<br /><img src="Images/BrushStroke1.png" alt="brush stroke" class="underline" /></h1>
+
+    <h2 id="air" class="subtitle">Air<br />
+        <a href="https://avatar.fandom.com/wiki/Airbending" style="text-decoration: none; color: #121212;">
+        <img src="Images/BrushStroke1.png" alt="brush stroke" class="underline" style=" width: 110px; height: 15px; margin-left: -20px;"/>
+        <img src="Images/AirLogo.png" alt="Air" class="elements"/>
+        </a>
+    </h2>
+    <img src="Images/AirBendingForms3.jpg" alt="Air Bending Forms" class="fltright" />
+    <p class="desc">Air is the element of freedom. The Air Nomads detached themselves from worldly problems and concerns believing the pursuit of peace and freedom was the key to solving the difficulties of life. Airbenders were devoted to seeking spiritual enlightenment, and, as a result, all children born into the Air Nomads were benders. The first airbenders learned their art from the flying bison.</p>
+    
+    <h2 id="water" class="subtitle">
+        <a href="https://avatar.fandom.com/wiki/Waterbending" style="text-decoration: none; color: #121212;">
+        <img src="Images/WaterLogo.png" alt="Water" class="elements" style="left: 200px;"/>
+        Water<br />
+        <img src="Images/BrushStroke1.png" alt="brush stroke" class="underline" style="width: 180px; height: 15px;"/>
+        </a>
+    </h2>
+    <img src="Images/WaterBendingForms3.jpg" alt="Water Bending Forms" class="fltright" />
+    <p class="desc">Water is the element of change. The moon is the source of power in waterbending, and the original waterbenders learned to bend by observing how the moon pushed and pulled the tides. The Water Tribes are the only people who did not learn bending from an animal, though the Moon and Ocean Spirits took the form of koi fish in the mortal world near the beginning of the world.</p>
+    
+    <h2 id="earth" class="subtitle">
+        <a href="https://avatar.fandom.com/wiki/Earthbending" style="text-decoration: none; color: #121212;">Earth
+        <img src="Images/BrushStroke1.png" alt="brush stroke" class="underline" style="width: 180px; height: 15px; margin-left: -10px;"/>
+        <img src="Images/EarthLogo.png" alt="Earth" class="elements" style="left: 180px;"/>
+        </a>
+    </h2>
+    <img src="Images/EarthBendingForms3.jpg" alt="Water Bending Forms" class="fltright" />
+    <p class="desc">Earth is the element of substance, while the people of the Earth Kingdom are diverse, strong, and enduring. Following the lion turtles' decision to relinquish their role as protectors of mankind, Oma and Shu were the first earthbenders to learn this art from the badgermoles.</p>
+    
+    <div class="adjdown">
+    <h2 id="fire" class="subtitle">
+        <a href="https://avatar.fandom.com/wiki/Firebending" style="text-decoration: none; color: #121212;">Fire<br />
+        <img src="Images/BrushStroke1.png" alt="brush stroke" class="underline" style="width: 130px; height: 15px; margin-left: -15px;"/>
+        <img src="Images/FireLogo.png" alt="Water" class="elements" style="left: 130px;"/>
+        </a>
+    </h2>
+    <img src="Images/FireBendingForms3.jpg" alt="Fire Bending Forms" class="fltright" style="margin-top: 30px;"/>
+    <p class="desc">As described by Iroh, fire is the element of power, consisting of overpowering force tempered by the unflinching will to accomplish tasks and desires. However, during the Hundred Year War, a militaristic Fire Nation twisted this into firebending being fueled by rage, hatred, and anger. Firebending draws its power from the sun, and the first human firebenders derived their firebending techniques from the dragons.</p>
+    </div>
+</div>
+
+<div>
+<map name="worldmap" id="worldmap">
+    <area shape="rect" coords="311,346,461,420" alt="Southern Air Temple" href="https://avatar.fandom.com/wiki/Southern_Air_Temple" />
+    <area shape="circle" coords="662,345,30" alt="Eastern Air Temple" href="https://avatar.fandom.com/wiki/Eastern_Air_Temple" />
+    <area shape="circle" coords="163,132,40" alt="Water" href="#water" />
+    <area shape="circle" coords="738,132,40" alt="earth" href="#earth" />
+    <area shape="circle" coords="738,430,40" alt="air" href="#air" />
+    <area shape="circle" coords="163,430,40" alt="fire" href="#fire" />
+    <area shape="poly" coords="242,200,245,186,256,185,265,168,285,171,308,173,321,160,338,160,326,186,292,193,285,213,261,219" alt="Western Air Temple" href="https://avatar.fandom.com/wiki/Western_Air_Temple" />
+    <area shape="poly" coords="378,119,387,106,410,81,427,72,468,80,502,109,424,131" href="https://avatar.fandom.com/wiki/Northern_Water_Tribe" alt="Northern Water Tribe" />
+    <area shape="poly" coords="371,459,375,446,407,427,482,425,504,444,505,462,460,488,434,492,406,473,389,481" href="https://avatar.fandom.com/wiki/Southern_Water_Tribe" alt="Southern Water Tribe" />
+    <area shape="poly" coords="205,275,223,248,255,247,282,255,360,266,386,241,391,251,376,284,344,302,324,301,310,322,292,332,266,325,242,309,219,303" alt="Fire Nation" href="https://avatar.fandom.com/wiki/Fire_Nation" />
+    <area shape="poly" coords="332,208,335,174,350,149,368,138,441,155,459,139,498,127,568,136,634,164,693,239,695,257,675,295,623,319,596,345,549,362,521,372,496,345,471,351,457,334,474,314,449,290,429,277,421,227,363,235,340,237" alt="Earth Kingdom" href="https://avatar.fandom.com/wiki/Earth_Kingdom" />
+</map>
+
+<script>
+
+function openMenu() {
+  var x = document.getElementClassName("dropdown");
+    x.style.display = "block";
+}
+</script>
+</div>
+</body>
+</html>

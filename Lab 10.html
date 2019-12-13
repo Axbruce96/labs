@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lab 10, Vault Tec Entry</title>
+    <link rel="icon" href="Images/vaultBoyLogo.png" type="image/png" sizes="25x25" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Source+Sans+Pro&amp;display=swap" rel="stylesheet" />
+    <style type="text/css">
+        @import url("Styles/Lab 10.css");
+    </style>
+</head>
+<body>
+<div>
+<button id="Top" name="Top" class="hbttn" onclick="window.location.href='Index.html';">
+        <img src="Images/home icon VT.png" alt="Home Page" class="homeicon" />
+        Return Home
+</button>
+</div>
+<h2 class="title">
+    Welcome to Vault-Tec
+</h2>
+<div class="bkg">
+    <h3 class="subtitle">Fill out the form below to be considered for Vault entry!</h3>
+    
+    <form method="post" enctype="text/plain" action="mailto:claxbruce@gmail.com">
+    <div>
+        <div class="align-left">
+            <h4 class="form-label">Name:</h4>
+            <input type="text" name="name" maxlength="50" size="30" class="form-field"/>
+            
+            <h4 class="form-label" style="float: right; position: relative; top: -25px; left: -10px; font-size: 14pt;">Sex:<br />
+            <select name="sex" class="form-field">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Do Not Disclose</option>
+            </select>
+            </h4>
+            
+            <h4 class="form-label" style="font-size: 10pt;">Date of Birth:</h4>
+            <input type="date" name="DOB" class="form-field"/>
+            
+            <h4 class="form-label" style="margin: 2px; font-size: 10pt; text-align: center; float: right; position: absolute; top: 100px; right: 25px;">
+                Favorite Color:<br/>
+                <span style="font-size: 8pt;">(please note that incorrect<br />choices will result in immediate<br />withdrawal from consideration)</span><br />
+                <input type="color" name="color" class="form-field"/>
+            </h4>
+            <h4 class="form-label" style="margin-top: 20px;">Email:</h4>
+            <input type="email" name="email" maxlength="50" size="30" class="form-field"/>
+            
+            <h4 class="form-label" style="margin-top: 20px;">Phone#</h4>
+            <h4 class="form-label" style="margin: 0; font-size: 8pt;">(XXX)-(XXX)-(XXXX)</h4>
+            <input type="tel" name="phone#" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-field"/>
+            
+            <h4 class="form-label" style="margin-top: 20px;">Link Social Media:</h4>
+            <h4 style="font-size: 10pt; margin: 0;">(Provide address url)</h4>
+            <input type="url" name="SocialMedia" maxlength="100" size="50" class="form-field"/>
+            
+            <h4 class="form-label" style="margin-top: 40px;">Tell us why you're a good Vault candidate!</h4>
+            <textarea name="whyChooseYou" rows="5" cols="50" class="form-field"></textarea>
+            
+            <h4 class="form-label" style="margin-top: 40px;">Are You Open to Experimentation?</h4>
+            <span class="radiobttn"><input type="radio" name="experimentation" value="yes" />&nbsp;Yes.</span>
+            <br />
+            <span class="radiobttn"><input type="radio" name="experimentation" value="no" />&nbsp;No.</span>
+            <br />
+            <span class="radiobttn"><input type="radio" name="experimentation" value="protocolDelta" />&nbsp;Surprise Me!</span>
+            
+            <h4 class="form-label" style="margin-top: 40px;">Do you consent to our <a href="Lab 10-terms.html">Terms and Conditions</a>?</h4>
+            <select name="termsAndConditons" class="form-field radiobttn">
+                <option value="yes" selected>Yes</option>
+                <option value="affirmative">Affirmative</option>
+                <option value="sirYesSir">Sir, Yes Sir!</option>
+                <option value="ayeAyeCaptain">Aye Aye Captain!</option>
+            </select>
+            
+            <h4 class="form-label" style="margin-top: 40px;">Please Select all that Apply.</h4>
+            <input type="checkbox" name="employed" value="currentlyEmployed" style="margin-top: 10px;"/><span class="radiobttn">&nbsp;I am currently employed.</span>
+            <br />
+            <input type="checkbox" name="unemployed" value="currentlyUnemployed"/><span class="radiobttn">&nbsp;I am currently unemployed.</span>
+            <br />
+            <br />
+            <input type="checkbox" name="vetStatus" value="Vet"/><span class="radiobttn">&nbsp;I am a Military Veteran.</span>
+            <br />
+            <input type="checkbox" name="vetStatus" value="notVet"/><span class="radiobttn">&nbsp;I am not a Military Veteran.</span>
+            
+        </div>
+        <input type="reset" value="Reset" class="reset"/><br />
+        <input type="submit" value="Submit" class="submit"/><br />
+    </div>
+    </form>
+    
+</div>
+
+</body>
+</html>

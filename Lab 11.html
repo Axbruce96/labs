@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lab 11, Greendale Community College</title>
+    <link rel="icon" href="Images/greendaleCClogo.png" type="image/png" sizes="25x25" />
+    <link href="https://fonts.googleapis.com/css?family=Yesteryear&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Alata&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&amp;display=swap" rel="stylesheet" />
+    <style type="text/css">
+        @import url("Styles/Lab 11.css");
+        @font-face {
+            font-family: "Old Sport";
+            src: url("Fonts/OldSportOutline.ttf");
+        }
+        @font-face { 
+            font-family: "College";
+            src: url("Fonts/collegiateHeavyOutline Medium.ttf");
+        }
+    </style>
+</head>
+<body>
+
+<button id="Top" name="Top" class="hbttn" onclick="window.location.href='Index.html';">
+        <img src="Images/home icon VT.png" alt="Home Page" class="homeicon" />
+        Return Home
+</button>
+
+<div class="heading">
+    <img src="Images/greendaleCClogo6.png" alt="Greendale Logo" class="logo-right"/>
+    <img src="Images/greendaleCClogo4.png" alt="Greendale Logo" class="logo-left"/>
+    <br />
+    <h1 class="subtitle">"You're already accepted!"</h1>
+</div>
+
+<div class="topBar">
+    <h3 class="topBarHeader">Welcome to Greendale Community College</h3>
+</div>
+
+<div class="col-3">
+<div class="sideBox">
+    <img src="Images/greendaleCCad1.jpg" alt="Reinvent Yourself" class="sideAd fade"/>
+    <img src="Images/greendaleCCad2.jpg" alt="Reinvent Yourself" class="sideAd fade"/>
+    <img src="Images/greendaleCCad3.jpg" alt="Reinvent Yourself" class="sideAd fade"/>
+    <img src="Images/greendaleCCad4.jpg" alt="Reinvent Yourself" class="sideAd fade"/>
+    <img src="Images/greendaleCCad5.png" alt="Reinvent Yourself" class="sideAd fade"/>
+    <img src="Images/greendaleCCad6.jpg" alt="Reinvent Yourself" class="sideAd fade"/>
+    <img src="Images/greendaleCCad7.jpg" alt="Reinvent Yourself" class="sideAd fade"/>
+</div>
+</div>
+
+<div class="col-9" style="text-align: center;">
+    <h2 class="headder">Student Life</h2>
+<div class="iframeBox" style="margin-left: 50px;">
+    <iframe src="Lab 11-iframe1.html" name="frame1" id="frame1" class="iframe">
+    <p>Iframes are not supported on your browser</p>
+    </iframe>
+    <h1 class="link-bar">
+        <a href="Lab 11-iframe1.html" target="frame1">Campus Map</a>&nbsp;&#183;
+        <a href="Lab 11-iframe2.html" target="frame1">Greendale Football</a>&nbsp;&#183;
+        <a href="Lab 11-iframe3.html" target="frame1">Debate Team</a>&nbsp;&#183;
+        <a href="Lab 11-iframe4.html" target="frame1">Dungeons &amp; Dragons Club</a>&nbsp;
+    </h1>
+    
+</div>
+    <hr class="break" />
+</div>
+
+<p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("sideAd");
+  // for loop, requires 3 statements: for (executed one time before the code block; defines the condition for execution; executed every time after code block)
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 16000); 
+}
+
+</script>
+</body>
+</html>

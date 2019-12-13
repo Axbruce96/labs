@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Lab 3, PC parts guide</title>
+    <link rel="icon" href="Images/PC Icon.png" type="image/png" sizes="25x25" />
+    <style type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("Images/bkg16.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+    .contentBox {
+        min-width: 500px;
+        width: 60%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(0,0,0,.9);
+    }
+    h1 {
+        text-align: center;
+        font-family: "Elephant", serif;
+        font-size: 54pt;
+        color: #b51919;
+        text-decoration: underline;
+    }
+    p { 
+        font-size: 36pt;
+        color: #168039;
+    }
+    
+    /*Home button*/
+    .hbttn { 
+        z-index: 2;
+        width: 128px;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        margin: 5px;
+        border-style: solid; 
+        border-color: #168039;
+        border-width: 2px; 
+        border-radius: 4px; 
+        padding-top: 4px;
+        padding-bottom: 0px;
+        padding-left: 2px;
+        padding-right: 2px;
+        background-color: #2e2e2e; 
+        word-spacing: -1px;
+        font-size: 12pt; 
+        color: #168039;
+        cursor: pointer;
+    }
+    .homeicon {
+        float: left;
+        margin-top: -2px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 5px;
+    }
+    .hbttn:hover { 
+        margin: 4px;
+        border-width: 3px;
+        background-color: #d0d0d0;
+    }
+    </style>
+</head>
+<body>
+<div class="contentBox">
+    <button onclick="window.location.href='Index.html';" id="Top" class="hbttn">
+        <img src="Images/home icon.png" alt="Home Page" class="homeicon"/>
+        Return Home
+    </button>
+
+    <h1>Lab 3</h1>
+    <p>
+        <a href="https://pcpartpicker.com/list/">
+        <img src="Images/PCPP Logo Sq.png" alt="PC Parts Picker" />
+        </a>&nbsp;
+        <a href="https://pcpartpicker.com/list/">PC Part Picker:</a>
+        Choose the best parts!
+        
+    </p>
+    <p>
+        <a href="https://www.cpubenchmark.net">
+        <img src="Images/CPU Logo Sq.jpg" alt="CPU Benchmark.net"/>
+        </a>&nbsp;
+        <a href="https://www.cpubenchmark.net">CPU Benchmark:</a>
+        Compare and contrast!
+    </p>
+    <p>
+        <a href="https://www.newegg.com">
+        <img src="Images/Newegg Logo Sq.jpg" alt="Newegg"/>
+        </a>&nbsp;
+        <a href="https://www.newegg.com">Newegg:</a>
+        Place an order!
+    </p>
+</div>
+</body>
+</html>

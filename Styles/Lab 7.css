@@ -1,0 +1,253 @@
+@font-face {
+    font-family: LSR;
+    src: url(../fonts/londrinasolid-regular.ttf);
+    }
+body { 
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/op logo.png"), url("../images/op luffy 2.png"), url("../images/op bkg 2.jpg"), url("../images/op bkg 4.jpg");
+    background-position: 260px 180px, 60px 22px, 0 0, 0 0;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat; 
+    background-attachment: scroll, scroll, scroll, fixed; 
+    background-size: 400px 144px, 350px 333px, 100% 360px, 100% 100%;
+    }
+h1 { 
+    width: 128px;
+    margin-left: 50px;
+    border-style: solid; 
+    border-color: #f0f0f0;
+    border-width: 2px; 
+    border-radius: 2px; 
+    background-color: #0672bf; 
+    font-size: 12pt; 
+    }
+h2 { 
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 52pt;
+    font-family: "Luckiest Guy", cursive;
+    color: #f0f0f0;
+    text-shadow: 0 0 5px #000000; 
+    letter-spacing: 5px;
+    }
+h3 { 
+    margin: 5px;
+    font-size: 36pt;
+    font-family: "Luckiest Guy", cursive;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-indent: 30px;
+    text-shadow: 10px 6px 15px #000000;
+    color: #f0f0f0;
+    }
+h4 { 
+    float: right;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 2px;
+    font-size: 12px; 
+    font-family: "LSR", sans-serif;
+    letter-spacing: 1px;
+    }
+h4:hover {
+    border-color: #000000;
+    color: #000000;
+    box-shadow: 3px 2px 1px #242424;
+    }
+p { 
+    margin: 5px;
+    text-indent: 25px;
+    font-size: 24pt;
+    font-family: "LSR", sans-seriff;
+    color: #f0f0f0;
+    }
+hr { 
+    margin: 3px; 
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    border-radius: 2px; 
+    }
+.imgBox {
+    clear: right;
+    position: relative;
+    top: 265px; 
+    width: 1100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #000000;
+    }
+    
+/*Character Box elements*/
+.charbox{ 
+    display: none;
+    position: absolute;
+    top: 230px;
+    left: 0;
+    right: 0;
+    width: 1300px;
+    min-height: 520px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #474747;
+    border-style: solid;
+    background-color: #0672bf; 
+    }
+.lineargradient{ 
+    display: none;
+    position: absolute;
+    top: 230px;
+    left: 0;
+    right: 0;
+    width: 1300px;
+    min-height: 520px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #000000;
+    border-style: solid;
+    background: -webkit-linear-gradient(-45deg, #0672bf, #7446b0); 
+    background: -moz-linear-gradient(-45deg, #0672bf, #7446b0); 
+    background: -ms-linear-gradient(-45deg, #0672bf, #7446b0); 
+    background: -o-linear-gradient(-45deg, #0672bf, #7446b0); 
+    background-image: linear-gradient(-45deg, #0672bf, #7446b0); 
+    }
+.bdrimg { 
+    display: none;
+    position: absolute;
+    top: 230px;
+    left: 0;
+    right: 0;
+    width: 1230px;
+    min-height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #000000;
+    border-width: 35px;
+    border-style: solid;
+    border-color: transparent;
+    border-image-source: url("../Images/Rope Bdr.png");
+    border-image-repeat: repeat; 
+    border-image-slice: 20%;
+    border-image-outset: 5px;
+    background-color: #0672bf; 
+    padding: 0;
+    }
+.closeBttn { 
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    border: none transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+.bttnImg {
+    width: 50px;
+    height: 50px;
+    border: none transparent;
+}
+    
+
+.hbtn {
+    float: left;
+    margin-right: 5px;
+    }
+.bkgimg {
+    z-index: -1;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 2px;
+    }
+.leftflt {
+    float: left;
+    position: static;
+    margin: 5px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 2px;
+    }
+.rightflt {
+    float: right;
+    position: static;
+    margin: 5px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 2px;
+    }
+ul { 
+    position: relative;
+    top: 275px;
+    left: 0;
+    overflow: hidden;
+    border-style: solid; 
+    border-left-style: none; 
+    border-right-style: none; 
+    border-width: 1px;
+    background-color: #0672bf;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 20px;
+    padding-left: 0;
+    line-height: 30px;
+    list-style-image: url("../Images/OP SH Logo 2.png");
+    list-style-position: inside;
+    }
+.bttnBar { 
+    float: right;
+    margin: 0;
+    padding: 2px;
+    padding-right: 10px;
+    font-size: 20pt; 
+    font-family: "Spicy Rice", cursive;
+    text-decoration: none;
+    }
+.bttnBar:hover { 
+    background-color: #03559c;
+    color: #ffffff;
+    cursor: pointer;
+    }
+.footer {
+    position: relative;
+    bottom: -450px;
+    width: 100%;
+    margin: 0px;
+    background-color: #636363;
+    color: #f0f0f0;
+    }
+a:link { color: #ffffff; }
+a:visited { color: #f0f0f0; }
+a:active { color: #fffb00; }
+a.banner { 
+    color: #ffffff; 
+    text-decoration: none; 
+    }
+a.banner:visited { 
+    color: #f0f0f0; 
+    text-decoration: none; 
+    }
+a.banner:hover { 
+    color: #000000;
+    text-decoration: none;
+    }
+a.banner:active { 
+    color: #fffb00; 
+    text-decoration: none; 
+    }

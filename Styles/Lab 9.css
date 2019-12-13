@@ -1,0 +1,237 @@
+
+body { 
+    margin: 0;
+    padding: 0;
+    background-image: url("../Images/ATLA Logo 1.png"), url("../Images/ATLA bkg 2.png");
+    background-attachment: scroll, fixed;
+    background-size: auto;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 150px center, top center;
+    background-color: #d9b679; 
+    }
+
+/*Home button*/
+.hbttn { 
+    width: 128px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    margin: 5px;
+    border-style: solid; 
+    border-color: #f6f6f6;
+    border-width: 2px; 
+    border-radius: 4px; 
+    padding-top: 4px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #2197b8; 
+    word-spacing: -1px;
+    font-size: 12pt; 
+    color: #f6f6f6;
+    cursor: pointer;
+    }
+.homeicon {
+    float: left;
+    margin-top: -2px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 5px;
+    }
+.hbttn:hover { 
+    margin-bottom: 4px;
+    border-width: 3px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 1px;
+    background-color: #176f87;
+    box-shadow: 2px 2px  5px #000000;
+    }
+    
+/*top-bar elements*/
+.topbar {
+    min-width: 100%;
+    position: absolute;
+    top: 60px;
+    background-color: #2197b8;
+    }
+.bttn-bar { 
+    float: left;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    border-style: none;
+    padding: 10px;
+    font-family: "Julee", cursive;
+    font-size: 24pt;
+    color: #f6f6f6;
+    text-decoration: none;
+    }
+.link-bar {
+    padding: 20px;
+    }
+.dropdown { 
+    float: left;
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    background-color: #2197b8;
+    border-style: none;
+    padding: 10px;
+    font-family: "Julee", cursive;
+    font-size: 24pt;
+    color: #f6f6f6;
+    }
+.dropdown-content { 
+    display: none;
+    position: absolute;
+    top: 68px;
+    left: 0px;
+    min-width: 160px;
+    z-index: 1;
+    padding: 10px;
+    background-color: #f6f6f6;
+    font-family: "Julee", cursive;
+    line-height: 40px;
+    }
+.topright {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    z-index: 1;
+    }
+.dropdown:hover .dropdown-content { display: block; }
+.dropdown-content a:hover { background-color: #969696; }
+.dropdown:hover { background-color: #176f87; }
+.bttn-bar:hover { background-color: #176f87; }
+.water:hover { color: #092c69; }
+.air:hover { color: #c0c0c0; }
+.fire:hover { color: #9e0000; cursor: pointer; }
+.earth:hover { color: #0c5900; cursor: pointer; }
+
+/*mobile top-bar elements*/
+.mobile { 
+    display: inline-block;
+    }
+.mobile-drop-bar { 
+    margin: 0;
+    padding: 0;
+    display: none;
+    border: solid;
+    background: transparent;
+    }
+
+/*picture-box elements*/
+.picbox { 
+    position: relative;
+    top: 630px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(153,101,21, 0.4);
+    }
+.pic-title { 
+    display: block;
+    margin-top: 0;
+    font-family: "Julee", cursive;
+    font-size: 56pt;
+    color: #121212;
+    }
+.pic-subtitle { 
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: "Kalam", cursive;
+    font-size: 28pt;
+    color: #121212;
+    }
+    
+/*content box elements*/
+.content-box { 
+    width: 60%;
+    position: relative;
+    top: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding: 30px;
+    background-color: rgba(153,101,21, 0.5);
+    }
+.title { 
+    width: 60%;
+    position: relative;
+    margin-top: -20px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    text-align: center;
+    font-size: 64pt;
+    font-family: "Julee", cursive;
+    color: #121212;
+    }
+.subtitle { 
+    width: 150px;
+    margin: 5px;
+    position: relative;
+    top: 35px;
+    left: 75px;
+    font-size: 56pt;
+    font-family: "Julee", cursive;
+    color: #121212;
+    line-height: 60px;
+    }
+.underline { 
+    text-align: center;
+    position: relative;
+    top: -40px;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 25px;
+    }
+.elements {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    }
+.desc { 
+    min-width: 50%;
+    max-width: 80%;
+    font-size: 28pt;
+    font-family: "Kalam", cursive; 
+    text-indent: 50px; 
+    color: #121212;
+    line-height: 38px;
+    text-align: left;
+    }
+.fltright {
+    float: right;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    }
+.adjdown { 
+    position: relative;
+    top: 50px;
+    }
+
+/*links*/
+a:link { color: #707070; }
+a:active { color: #ffff00; }
+a.fire:visited { color: #e3e3e3; }
+a.earth:visited { color: #e3e3e3; }
+a:visited { color: #424242; }
+
+@media screen and (max-width: 780px) {
+    .bttn-bar {
+        display: none;
+        float: none;  
+    }
+    .dropdown {
+        display: none;
+    }
+    .mobile-drop-bar {
+        display: block;
+    }
+}

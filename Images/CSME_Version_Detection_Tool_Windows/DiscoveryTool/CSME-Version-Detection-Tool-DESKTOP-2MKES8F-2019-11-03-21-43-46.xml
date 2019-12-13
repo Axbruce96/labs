@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<System>
+  <Application_Name>Intel(R) CSME Version Detection Tool</Application_Name>
+  <Application_Version>1.0.41.0</Application_Version>
+  <Computer_Name>DESKTOP-2MKES8F</Computer_Name>
+  <Scan_Date>11/3/2019 9:43:46 PM</Scan_Date>
+  <Hardware_Inventory>
+    <Computer_Manufacturer>MSI</Computer_Manufacturer>
+    <Computer_Model>MS-7752</Computer_Model>
+    <OperatingSystem>Microsoft Windows 10 Home</OperatingSystem>
+    <Processor>Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz</Processor>
+  </Hardware_Inventory>
+  <ME_Firmware_Information>
+    <Driver_Installed>True</Driver_Installed>
+    <FW_Version>8.1.30.1350</FW_Version>
+    <Platform>Intel(R) ME</Platform>
+  </ME_Firmware_Information>
+  <System_Status>
+    <System_Risk>The system is not supported</System_Risk>
+    <System_Risk_Value>102</System_Risk_Value>
+    <System_Exposure />
+  </System_Status>
+</System>
