@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Shadowed Serif";
-    src: url("Fonts/SHADSER.TTF")
+    src: url("../Fonts/SHADSER.TTF")
     }
 body {
     background-image: url("../Images/SC bkg 2.jpg");
