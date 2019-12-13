@@ -19,22 +19,6 @@
     </style>
 </head>
 <body>
-<script>
-showSlides();
-    
-function showSlides() {
-  var slideIndex = 0;
-  var i;
-  var slides = document.getElementsByClassName("sideAd");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  slides[slideIndex-1].style.display = "block";  
-  setTimeout(showSlides, 16000); 
-}
-</script>
 
 <button id="Top" name="Top" class="hbttn" onclick="window.location.href='index.html';">
         <img src="Images/home icon VT.png" alt="Home Page" class="homeicon" />
@@ -83,5 +67,21 @@ function showSlides() {
 
 <p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
 
+<script>
+showSlides();
+    
+function showSlides() {
+  var slideIndex = 0;
+  var i;
+  var slides = document.getElementsByClassName("sideAd");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 16000); 
+}
+</script>
 </body>
 </html>
