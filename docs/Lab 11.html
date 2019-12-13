@@ -46,6 +46,22 @@
     <img src="Images/greendaleCCad6.jpg" alt="When All Else Fails" class="sideAd fade"/>
     <img src="Images/greendaleCCad7.jpg" alt="Dare to Dream" class="sideAd fade"/>
 </div>
+<script>
+showSlides();
+    
+function showSlides() {
+  var slideIndex = 0;
+  var i;
+  var slides = document.getElementsByClassName("sideAd");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 16000); 
+}
+</script>
 </div>
 
 <div class="col-9" style="text-align: center;">
@@ -67,21 +83,6 @@
 
 <p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
 
-<script>
-showSlides();
-    
-function showSlides() {
-  var slideIndex = 0;
-  var i;
-  var slides = document.getElementsByClassName("sideAd");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  slides[slideIndex-1].style.display = "block";  
-  setTimeout(showSlides, 16000); 
-}
-</script>
+
 </body>
 </html>
