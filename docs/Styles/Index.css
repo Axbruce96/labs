@@ -103,18 +103,15 @@ h1 {
     }
 
 .title { 
-    margin-top: 3px; 
+    margin: 3px 2px 0px 2px; 
     text-align: center; 
-    font-size: 32pt; 
+    font-size: 36pt; 
     font-family: "Acme", serif; 
     text-decoration: underline;
     color: #943d12; 
     }
 .subtitle { 
-    margin-top: -34px; 
-    margin-bottom: 2px; 
-    margin-left: 2px; 
-    margin-right: 2px; 
+    margin: -34px 2px 2px 2px; 
     text-align: center; 
     font-size: 26pt; 
     font-family: "Acme", serif; 
