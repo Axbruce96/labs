@@ -14,10 +14,7 @@ h1 {
 .header { 
     max-width: 800px;
     min-width: 400px;  
-    margin-top: 20px; 
-    margin-left: auto; 
-    margin-right: auto; 
-    margin-bottom: 20px; 
+    margin: 20px auto;
     border-style: none; 
     border-width: 3px; 
     border-color: #414e52; 
