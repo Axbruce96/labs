@@ -1,11 +1,11 @@
 @font-face {
     font-family: LSR;
-    src: url(../Fonts/londrinasolid-regular.ttf);
+    src: url(../fonts/londrinasolid-regular.ttf);
     }
 body { 
     margin: 0px;
     padding: 0px;
-    background-image: url("../Images/OP Logo.png"), url("../Images/OP Luffy 2.png"), url("../Images/OP bkg 2.jpg"), url("../Images/OP bkg 4.jpg");
+    background-image: url("../images/op logo.png"), url("../images/op luffy 2.png"), url("../images/op bkg 2.jpg"), url("../images/op bkg 4.jpg");
     background-position: 260px 180px, 60px 22px, 0 0, 0 0;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat; 
     background-attachment: scroll, scroll, scroll, fixed; 
@@ -24,8 +24,12 @@ h1 {
 h2 { 
     position: absolute;
     top: 50%;
-    left: 10%;
-    font-size: 52pt;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 4vw;
     font-family: "Luckiest Guy", cursive;
     color: #f0f0f0;
     text-shadow: 0 0 5px #000000; 
@@ -78,11 +82,11 @@ hr {
     clear: right;
     position: relative;
     top: 265px; 
-    width: 1100px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: auto;
+    max-width: 60%;
+    margin: 5px auto;
     box-shadow: 5px 5px 10px #000000;
     }
     
@@ -93,7 +97,7 @@ hr {
     top: 230px;
     left: 0;
     right: 0;
-    width: 1300px;
+    width: 60%;
     min-height: 520px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -109,7 +113,7 @@ hr {
     top: 230px;
     left: 0;
     right: 0;
-    width: 1300px;
+    width: 60%;
     min-height: 520px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -129,7 +133,7 @@ hr {
     top: 230px;
     left: 0;
     right: 0;
-    width: 1230px;
+    width: 61%;
     min-height: 500px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -147,12 +151,10 @@ hr {
     padding: 0;
     }
 .closeBttn { 
-    position: absolute;
-    top: 10px;
-    right: 40px;
+    float: right;
     width: 50px;
     height: 50px;
-    margin: 0;
+    margin: 5px;
     border: none transparent;
     background-color: transparent;
     cursor: pointer;
@@ -170,6 +172,8 @@ hr {
     }
 .bkgimg {
     z-index: -1;
+    width: 100%;
+    height: auto;
     border-style: solid;
     border-color: #000000;
     border-radius: 2px;
