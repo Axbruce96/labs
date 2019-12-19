@@ -105,8 +105,6 @@ body {
 
 /*Side-ads*/
 .sideBox { 
-    float: left;
-    clear: both;
     box-sizing: border-box;
     width: 100%;
     margin-bottom: 10px;
