@@ -105,14 +105,14 @@ h1 {
     font-size: 42pt; 
     font-family: "Acme", serif; 
     text-decoration: underline;
-    color: #ff4000; 
+    color: #eccc00; 
     }
 .subtitle { 
     margin: -34px 2px 2px 2px; 
     text-align: center; 
     font-size: 26pt; 
     font-family: "Acme", serif; 
-    color: #eccc00; 
+    color: #f8f8f8; 
     }
 img { 
     margin: 2px; 
