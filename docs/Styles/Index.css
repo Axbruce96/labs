@@ -6,7 +6,7 @@ body {
     }
 h1 { 
     font-size: 52pt; 
-    color: #eccc00; 
+    color: #EA550B; 
     font-family: "Bowlby One SC", serif; 
     text-decoration: underline; 
     margin: 2px; 
@@ -105,7 +105,7 @@ h1 {
     font-size: 42pt; 
     font-family: "Acme", serif; 
     text-decoration: underline;
-    color: #943d12; 
+    color: #EA550B; 
     }
 .subtitle { 
     margin: -34px 2px 2px 2px; 
