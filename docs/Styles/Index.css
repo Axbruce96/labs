@@ -20,7 +20,7 @@ h1 {
     border-color: #414e52; 
     border-radius: 55px; 
     padding-bottom: 10px; 
-    background-color: #1b6385; 
+    background-color: #287185; 
     text-align: center; 
     }
 .fade {
@@ -84,7 +84,7 @@ h1 {
     height: 425px;
     margin-left: auto; 
     margin-right: auto; 
-    background-color: #1b6385; 
+    background-color: #287185; 
     border-style: none; 
     border-width: 3px; 
     border-color: #FA5300; 
@@ -140,7 +140,7 @@ img {
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(40, 113, 133,1); 
+    background-color: #287185; 
     border-style: none; 
     border-width: 3px; 
     border-color: #414e52; 
