@@ -6,7 +6,7 @@ body {
     }
 h1 { 
     font-size: 52pt; 
-    color: #eccc00; 
+    color: #ba9f25; 
     font-family: "Bowlby One SC", serif; 
     text-decoration: underline; 
     margin: 2px; 
@@ -20,7 +20,7 @@ h1 {
     border-color: #414e52; 
     border-radius: 55px; 
     padding-bottom: 10px; 
-    background-color: rgba(40, 113, 133,1); 
+    background-color: #1b6385; 
     text-align: center; 
     }
 .fade {
@@ -84,7 +84,7 @@ h1 {
     height: 425px;
     margin-left: auto; 
     margin-right: auto; 
-    background-color: rgba(40, 113, 133,1); 
+    background-color: #1b6385; 
     border-style: none; 
     border-width: 3px; 
     border-color: #FA5300; 
@@ -105,14 +105,14 @@ h1 {
     font-size: 42pt; 
     font-family: "Acme", serif; 
     text-decoration: underline;
-    color: #eccc00; 
+    color: #ba9f25; 
     }
 .subtitle { 
     margin: -34px 2px 2px 2px; 
     text-align: center; 
     font-size: 26pt; 
     font-family: "Acme", serif; 
-    color: #f8f8f8; 
+    color: #871b2f; 
     }
 img { 
     margin: 2px; 
