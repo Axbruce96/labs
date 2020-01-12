@@ -112,7 +112,7 @@ h1 {
     text-align: center; 
     font-size: 26pt; 
     font-family: "Acme", serif; 
-    color: #c9c9c9; 
+    color: #e2e2e2; 
     }
 img { 
     margin: 2px; 
@@ -148,7 +148,7 @@ img {
     padding: 1px;
     font-family: "Acme", serif; 
     font-size: 20pt;
-    color: #f8f8f8; 
+    color: #e2e2e2; 
     }
 .modal-link:hover { 
     cursor: pointer;
