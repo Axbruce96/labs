@@ -103,7 +103,7 @@ h1 {
     margin: 3px 2px 0px 2px; 
     text-align: center; 
     font-size: 42pt; 
-    font-family: 'Oswald', sans-serif; 
+    font-family: 'Anton', sans-serif; 
     text-decoration: underline;
     color: #F2F2F2; 
     }
@@ -111,7 +111,7 @@ h1 {
     margin: -34px 2px 2px 2px; 
     text-align: center; 
     font-size: 26pt; 
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Anton', sans-serif;
     color: #ffb612; 
     }
 img { 
@@ -145,7 +145,7 @@ img {
     border-color: #414e52; 
     border-radius: 20px; 
     padding: 1px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-size: 20pt;
     color: #ffb612; 
     }
