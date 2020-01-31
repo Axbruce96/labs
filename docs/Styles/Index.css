@@ -3,12 +3,13 @@
     width: 8%;
     position: absolute;
     top: 300px;
-    left: 30px;
+    left: 15px;
     border-radius: 15px;
     background-color: #287185;
     padding: 15px;
 }
 .modalBarTitle {
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 28pt;
@@ -16,6 +17,7 @@
 .openLink {
     margin: 0;
     line-height: 60px;
+    text-align: center;
     color: #ffb612;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
