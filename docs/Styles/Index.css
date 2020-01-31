@@ -98,9 +98,8 @@ h1 {
 
 /*Lab Buttons*/
 .gallery {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+    float: right;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
