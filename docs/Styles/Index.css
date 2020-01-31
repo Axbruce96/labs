@@ -1,15 +1,16 @@
 /*Test Modal Bar*/
 .modalBar {
-    width: 8%;
+    width: 10%;
     position: absolute;
     top: 300px;
-    left: 15px;
+    left: 30px;
     border-radius: 15px;
     background-color: #287185;
     padding: 15px;
 }
 .modalBarTitle {
     text-align: center;
+    color: #F2F2F2;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 28pt;
@@ -107,7 +108,7 @@ h1 {
 /*Lab Buttons*/
 .gallery {
     float: right;
-    width: 90%;
+    width: 85%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
