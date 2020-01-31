@@ -16,7 +16,7 @@
     font-size: 28pt;
 }
 .openLink {
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
     line-height: 60px;
     text-align: center;
     color: #ffb612;
