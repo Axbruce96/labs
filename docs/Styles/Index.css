@@ -7,7 +7,7 @@ body {
 h1 { 
     font-size: 52pt; 
     color: #F2F2F2; 
-    font-family: "Bowlby One SC", serif; 
+    font-family: 'Paytone One', sans-serif; 
     text-decoration: underline; 
     margin: 2px; 
             }
@@ -101,7 +101,7 @@ h1 {
     margin: 3px 2px 0px 2px; 
     text-align: center; 
     font-size: 42pt; 
-    font-family: "Acme", serif; 
+    font-family: 'Paytone One', sans-serif; 
     text-decoration: underline;
     color: #F2F2F2; 
     }
@@ -109,14 +109,14 @@ h1 {
     margin: -34px 2px 2px 2px; 
     text-align: center; 
     font-size: 26pt; 
-    font-family: "Acme", serif; 
+    font-family: 'Paytone One', sans-serif; 
     color: #ffb612; 
     }
 img { 
     margin: 2px; 
     border-style: none; 
     border-width: 3px; 
-    border-radius: 25px; 
+    border-radius: 5px; 
     }
 
 /*Modal Button*/
@@ -143,7 +143,7 @@ img {
     border-color: #414e52; 
     border-radius: 20px; 
     padding: 1px;
-    font-family: "Acme", serif; 
+    font-family: 'Paytone One', sans-serif; 
     font-size: 20pt;
     color: #ffb612; 
     }
