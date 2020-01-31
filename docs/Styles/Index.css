@@ -19,6 +19,7 @@ h1 {
     border-style: none; 
     border-width: 3px; 
     border-radius: 55px; 
+    padding-top: 5px;
     padding-bottom: 10px; 
     background-color: #287185; 
     text-align: center; 
