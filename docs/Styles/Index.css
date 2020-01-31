@@ -24,6 +24,8 @@ h1 {
     background-color: #287185; 
     text-align: center; 
     }
+
+/*Animations*/
 .fade {
     -webkit-transition-property: all;
     -moz-transition-property: all;
@@ -70,6 +72,7 @@ h1 {
     from {opacity: .2}
     to {opacity: 1}
 }
+/*End*/
 
 /*Lab Buttons*/
 .gallery {
@@ -122,6 +125,7 @@ img {
     border-width: 3px; 
     border-radius: 5px; 
     }
+/*End*/
 
 /*Modal Button*/
 .bttn-box { 
@@ -157,6 +161,7 @@ img {
     box-shadow: 3px 5px 10px #000000;
     font-weight: 200;
     }
+/*End*/
 
 /*Modal Elements*/
 .modal-box { 
@@ -224,7 +229,9 @@ img {
     border-radius: 5px;
     background-color: #f0f0f0;
 }
-    
+/*End*/
+
+
 a:link { color: #943d12; } 
 a:active { color: #ccbf0c; }
 a:hover { color: #ccbf0c; }
