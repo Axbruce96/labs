@@ -1,9 +1,9 @@
 /*Test Modal Bar*/
 .modalBar {
-    width: 10%;
+    width: 12%;
     position: absolute;
     top: 300px;
-    left: 30px;
+    left: 50px;
     border-radius: 15px;
     background-color: #287185;
     padding: 15px;
@@ -16,7 +16,7 @@
     font-size: 28pt;
 }
 .openLink {
-    margin: 0;
+    margin: 0 auto;
     line-height: 60px;
     text-align: center;
     color: #ffb612;
