@@ -1,3 +1,25 @@
+/*Test Modal Bar*/
+.modalBar {
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    border: none 0px 15px;
+    background-color: #287185;
+    padding: 15px;
+}
+.openLink {
+    margin: 0;
+    line-height: 32px;
+    color: #ffb612;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 28pt;
+}
+.openLink:hover {
+    font-size: 30pt;
+}
+/*End*/
+
 body { 
     margin: 5px;
     background-image: url(../Images/bkg13.jpg); 
