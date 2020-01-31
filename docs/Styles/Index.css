@@ -263,9 +263,3 @@ img {
     background-color: #f0f0f0;
 }
 /*End*/
-
-
-a:link { color: #943d12; } 
-a:active { color: #ccbf0c; }
-a:hover { color: #ccbf0c; }
-a:visited { color: #733110; }
