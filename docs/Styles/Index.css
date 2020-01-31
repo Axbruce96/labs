@@ -6,7 +6,7 @@ body {
     }
 h1 { 
     font-size: 52pt; 
-    color: #ffb612; 
+    color: #e2e2e2; 
     font-family: "Bowlby One SC", serif; 
     text-decoration: underline; 
     margin: 2px; 
@@ -105,14 +105,14 @@ h1 {
     font-size: 42pt; 
     font-family: "Acme", serif; 
     text-decoration: underline;
-    color: #ffb612; 
+    color: #e2e2e2; 
     }
 .subtitle { 
     margin: -34px 2px 2px 2px; 
     text-align: center; 
     font-size: 26pt; 
     font-family: "Acme", serif; 
-    color: #e2e2e2; 
+    color: #ffb612; 
     }
 img { 
     margin: 2px; 
@@ -148,7 +148,7 @@ img {
     padding: 1px;
     font-family: "Acme", serif; 
     font-size: 20pt;
-    color: #e2e2e2; 
+    color: #ffb612; 
     }
 .modal-link:hover { 
     cursor: pointer;
