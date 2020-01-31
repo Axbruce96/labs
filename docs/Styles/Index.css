@@ -9,6 +9,7 @@ h1 {
     color: #F2F2F2; 
     font-family: 'Paytone One', sans-serif; 
     text-decoration: underline; 
+    word-spacing: 20px;
     margin: 2px; 
             }
 .header { 
@@ -87,7 +88,7 @@ h1 {
     border-style: none; 
     border-width: 3px;  
     border-radius: 20px; 
-    padding-top: 20px; 
+    padding-top: 15px; 
     padding-bottom: 10px; 
     text-align: center; 
     cursor: pointer;
