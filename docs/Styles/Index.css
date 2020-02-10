@@ -1,6 +1,6 @@
 /*Test Modal Bar*/
 .modalBar {
-    width: 14%;
+    min-width: 15%;
     position: fixed;
     top: 145px;
     left: 50px;
