@@ -2,12 +2,8 @@
 .modalBar {
     display: inline-block;
     min-width: 15%;
-    position: -webkit-sticky;
-    position: -moz-sticky;
-    position: -ms-sticky;
-    position: -o-sticky;
-    position: sticky;
-    top: 120px;
+    position: fixed;
+    top: 145px;
     left: 50px;
     border-radius: 15px;
     background-color: #287185;
