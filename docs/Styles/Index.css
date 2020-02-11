@@ -117,7 +117,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     }
-.gallerybox { 
+.galleryBox { 
     width: 300px; 
     height: 425px;
     margin-left: auto; 
@@ -131,7 +131,7 @@ h1 {
     text-align: center; 
     cursor: pointer;
     }
-.gallerybox:hover { 
+.galleryBox:hover { 
     box-shadow: 3px 5px 10px #000000;
     font-weight: 200;
     }
@@ -162,9 +162,9 @@ img {
 /*End*/
 
 /*Modal Button*/
-.bttn-box { 
+.bttnBox { 
     width: 320px;
-    height: 500px;
+    height: 460px;
     margin-bottom: 20px;
     border: none;
     padding-left: 10px;
@@ -173,7 +173,8 @@ img {
     padding-bottom: 0;
     text-align: center;
     }
-.modal-link { 
+.modalLink { 
+    display: none;
     width: 200px;
     margin-top: 5px;
     margin-bottom: 0;
@@ -190,7 +191,7 @@ img {
     font-size: 20pt;
     color: #ffb612; 
     }
-.modal-link:hover { 
+.modalLink:hover { 
     cursor: pointer;
     box-shadow: 3px 5px 10px #000000;
     font-weight: 200;
@@ -198,7 +199,7 @@ img {
 /*End*/
 
 /*Modal Elements*/
-.modal-box { 
+.modalBox { 
     display: none;
     position: fixed;
     top: 0;
@@ -225,7 +226,7 @@ img {
     background-color: transparent;
     cursor: pointer;
 }
-.poptxt { 
+.popTxt { 
     position: absolute;
     top: 30px;
     left: 50px;
@@ -264,7 +265,13 @@ img {
     background-color: #f0f0f0;
 }
 /*End*/
-@media screen and (max-width: 600px;) {
+@media screen and (max-width: 1100px) {
+    .modalLink {
+        display: inline-block;
+    }
+    .bttnBox {
+        height: 500px;
+    }
     .modalBar {
         display: none;
     }
