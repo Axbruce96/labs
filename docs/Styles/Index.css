@@ -236,8 +236,8 @@ img {
     font-size: 14pt;
     color: #f0f0f0;
 }
-.closeBttn:hover .poptxt { display: block; }
-.openLabBttn:hover .poptxt { display: block; }
+.closeBttn:hover .popTxt { display: block; }
+.openLabBttn:hover .popTxt { display: block; }
 
 
 .bttnImg {
