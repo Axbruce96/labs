@@ -5,7 +5,7 @@
 body { 
     margin: 0px;
     padding: 0px;
-    background-image: url("../Images/op logo.png"), url("../Images/op luffy 2.png"), url("../Images/op bkg 2.jpg"), url("../Images/op bkg 4.jpg");
+    background-image: url("../Images/OP Logo.png"), url("../Images/OP Luffy 2.png"), url("../Images/OP bkg 2.jpg"), url("../Images/OP bkg 4.jpg");
     background-position: 260px 200px, 60px 52px, 0 0, 0 0;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat; 
     background-attachment: scroll, scroll, scroll, fixed; 
