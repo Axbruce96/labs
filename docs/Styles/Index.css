@@ -1,38 +1,3 @@
-/*Test Modal Bar*/
-.modalBar {
-    display: inline-block;
-    min-width: 15%;
-    position: fixed;
-    top: 130px;
-    left: 50px;
-    border-radius: 15px;
-    background-color: #287185;
-    padding: 2px 15px 15px 15px;
-    text-align: center;
-}
-.modalBarTitle {
-    margin: 0px;
-    text-align: center;
-    color: #F2F2F2;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 34pt;
-}
-.openLink {
-    margin: 0 auto 0 auto;
-    line-height: 50px;
-    text-align: center;
-    color: #ffb612;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 32pt;
-    cursor: pointer;
-}
-.openLink:hover {
-    font-size: 34pt;
-}
-/*End*/
-
 body { 
     margin: 5px;
     background-image: url(../Images/bkg13.jpg); 
@@ -239,7 +204,6 @@ img {
 .closeBttn:hover .popTxt { display: block; }
 .openLabBttn:hover .popTxt { display: block; }
 
-
 .bttnImg {
     width: 50px;
     height: 50px;
@@ -254,17 +218,88 @@ img {
     border: none;
 }
 .iframe1 { 
+    position: relative;
+    top: 10px;
     display: inline-block;
     box-sizing: border-box;
     width: 900px;
-    min-height: 900px;
+    min-height: 600px;
     height: 95%;
     margin: 10px;
     border: none;
     border-radius: 5px;
     background-color: #f0f0f0;
 }
+.center {
+    position: relative;
+    margin:0 auto;
+    width: 1000px; 
+    height: 100%;
+}
+.next, .prev {
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 32pt;
+    color: #f0f0f0;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+.next:hover .popTxt { display: block; }
+.prev:hover .popTxt { display: block; }
+
 /*End*/
+
+/*Modal Bar*/
+.modalBar {
+    display: inline-block;
+    min-width: 15%;
+    position: fixed;
+    top: 130px;
+    left: 50px;
+    border-radius: 15px;
+    background-color: #287185;
+    padding: 2px 15px 15px 15px;
+    text-align: center;
+}
+.modalBarTitle {
+    margin: 0px;
+    text-align: center;
+    color: #F2F2F2;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 34pt;
+}
+.divider {
+    margin-top: 0px; 
+    border-style: solid; 
+    border-color: #f2f2f2; 
+    border-width: 3px; 
+    border-radius: 3px;
+}
+.openLink {
+    margin: 0 auto 0 auto;
+    line-height: 50px;
+    text-align: center;
+    color: #ffb612;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 32pt;
+    cursor: pointer;
+}
+.openLink:hover {
+    font-size: 34pt;
+}
+/*End*/
+
 @media screen and (max-width: 1100px) {
     .modalLink {
         display: inline-block;
