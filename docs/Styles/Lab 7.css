@@ -1,12 +1,12 @@
 @font-face {
     font-family: LSR;
-    src: url(../Fonts/londrinasolid-regular.ttf);
+    src: url(../fonts/londrinasolid-regular.ttf);
     }
 body { 
     margin: 0px;
     padding: 0px;
-    background-image: url("../Images/OP Logo.png"), url("../Images/OP Luffy 2.png"), url("../Images/OP bkg 2.jpg"), url("../Images/OP bkg 4.jpg");
-    background-position: 260px 180px, 60px 22px, 0 0, 0 0;
+    background-image: url("../images/op logo.png"), url("../images/op luffy 2.png"), url("../images/op bkg 2.jpg"), url("../images/op bkg 4.jpg");
+    background-position: 260px 200px, 60px 52px, 0 0, 0 0;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat; 
     background-attachment: scroll, scroll, scroll, fixed; 
     background-size: 400px 144px, 350px 333px, 100% 360px, 100% 100%;
@@ -24,12 +24,8 @@ h1 {
 h2 { 
     position: absolute;
     top: 50%;
-    left: 0;
-    right: 0;
-    width: 90%;
-    margin: 5px auto;
-    text-align: center;
-    font-size: 4vw;
+    left: 10%;
+    font-size: 52pt;
     font-family: "Luckiest Guy", cursive;
     color: #f0f0f0;
     text-shadow: 0 0 5px #000000; 
@@ -78,26 +74,22 @@ hr {
     border-width: 2px;
     border-radius: 2px; 
     }
-.imgBox {
+.img1 {
     clear: right;
     position: relative;
-    top: 265px; 
-    left: 0;
-    right: 0;
-    height: auto;
-    max-width: 60%;
-    margin: 5px auto;
+    top: 320px; 
+    width: 1100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 5px 5px 10px #000000;
     }
-    
-/*Character Box elements*/
 .charbox{ 
-    display: none;
-    position: absolute;
-    top: 230px;
-    left: 0;
-    right: 0;
-    width: 60%;
+    clear: left;
+    position: relative;
+    top: 330px;
+    width: 1300px;
     min-height: 520px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -108,12 +100,10 @@ hr {
     background-color: #0672bf; 
     }
 .lineargradient{ 
-    display: none;
-    position: absolute;
-    top: 230px;
-    left: 0;
-    right: 0;
-    width: 60%;
+    clear: left;
+    position: relative;
+    top: 330px;
+    width: 1300px;
     min-height: 520px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -128,12 +118,10 @@ hr {
     background-image: linear-gradient(-45deg, #0672bf, #7446b0); 
     }
 .bdrimg { 
-    display: none;
-    position: absolute;
-    top: 230px;
-    left: 0;
-    right: 0;
-    width: 61%;
+    clear: left;
+    position: relative;
+    top: 330px;
+    width: 1230px;
     min-height: 500px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -150,30 +138,12 @@ hr {
     background-color: #0672bf; 
     padding: 0;
     }
-.closeBttn { 
-    float: right;
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-    border: none transparent;
-    background-color: transparent;
-    cursor: pointer;
-}
-.bttnImg {
-    width: 50px;
-    height: 50px;
-    border: none transparent;
-}
-    
-
 .hbtn {
     float: left;
     margin-right: 5px;
     }
 .bkgimg {
     z-index: -1;
-    width: 100%;
-    height: auto;
     border-style: solid;
     border-color: #000000;
     border-radius: 2px;
@@ -198,7 +168,7 @@ hr {
     }
 ul { 
     position: relative;
-    top: 275px;
+    top: 310px;
     left: 0;
     overflow: hidden;
     border-style: solid; 
@@ -214,7 +184,7 @@ ul {
     list-style-image: url("../Images/OP SH Logo 2.png");
     list-style-position: inside;
     }
-.bttnBar { 
+li { 
     float: right;
     margin: 0;
     padding: 2px;
@@ -223,10 +193,9 @@ ul {
     font-family: "Spicy Rice", cursive;
     text-decoration: none;
     }
-.bttnBar:hover { 
+li:hover { 
     background-color: #03559c;
     color: #ffffff;
-    cursor: pointer;
     }
 .footer {
     position: relative;
@@ -239,7 +208,7 @@ ul {
 a:link { color: #ffffff; }
 a:visited { color: #f0f0f0; }
 a:active { color: #fffb00; }
-a.banner { 
+a.banner:link { 
     color: #ffffff; 
     text-decoration: none; 
     }
