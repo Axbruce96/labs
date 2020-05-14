@@ -80,6 +80,7 @@ h1 {
     width: 85%;
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
     justify-content: center;
     padding: 0px 20px 0px 40px;
     }
@@ -267,6 +268,7 @@ img {
     position: fixed;
     top: 130px;
     left: 50px;
+    margin: 0;
     border-radius: 15px;
     background-color: #287185;
     padding: 2px 15px 15px 15px;
