@@ -261,7 +261,7 @@ img {
 /*Modal Bar*/
 .modalBar {
     display: inline-block;
-    min-width: 400px;
+    min-width: 250px;
     width: 12%;
     position: fixed;
     top: 130px;
