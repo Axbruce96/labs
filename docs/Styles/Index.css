@@ -235,7 +235,7 @@ img {
 .center {
     position: relative;
     margin:0 auto;
-    width: 750px; 
+    width: 720px; 
     height: 100%;
 }
 .next, .prev {
@@ -244,6 +244,8 @@ img {
     position: absolute;
     top: 50%;
     margin: 10px;
+    padding: 2px 5px;
+    line-height: 1;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 32pt;
@@ -255,6 +257,8 @@ img {
 .next {
     right: 10px;
 }
+.next:hover { background-color: rgba(0, 0, 0, .5); }
+.prev:hover { background-color: rgba(0, 0, 0, .5); }
 .next:hover .popTxt { display: block; }
 .prev:hover .popTxt { display: block; }
 
